@@ -11,7 +11,11 @@ public class TeamMemberTest {
     private Company company = new Company("My Company");
 
     public void runProjectMenu() {
-
+    	/*
+    	 * This is data which will populate the array list and the subsequent binary tree
+    	 * so that when it comes to running the program to ensure it works new data isn't necessary
+    	 */
+    	
         company.addProject(new Project("Update Website", new Date(120, 1, 1),  new Date(120, 2, 1)));
         company.addProject(new Project("Backup Database", new Date(120, 1, 14),  new Date(120, 2, 2)));
         company.addProject(new Project("Test New Server", new Date(120, 2, 4),  new Date(120, 2, 26)));
