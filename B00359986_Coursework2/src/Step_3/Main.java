@@ -1,8 +1,8 @@
-package Step_2;
+package Step_3;
 
 public class Main {
 	public static void main(String[] args) {
-		TeamMemberTest menu = new TeamMemberTest();
+		BSTTest menu = new BSTTest();
 		menu.runProjectMenu();
 	}
 }

@@ -1,10 +1,11 @@
-package Step_2;
+package Step_3;
 
 // MODEL
 public class TeamMember {
 	private String name;
 	private int employeeNumber;
 	private String division;
+
 
 	public TeamMember(String name, int employeeNumber, String division) {
 		this.name = name;
